@@ -1,0 +1,72 @@
+.about {
+  min-height: 100vh;          /* fill full viewport height */
+  height: 100vh;              /* force to viewport height */
+  padding: 4rem 1.5rem;
+  /* background: #fff; */
+  background: url("../../assets/background/bridge2.jpg") no-repeat center center fixed;
+  color: #1f2937;             /* Tailwind gray-800/900 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    /* vertical centering */
+  box-sizing: border-box;     /* include padding in height */
+  overflow: hidden;           /* hide unnecessary scrollbars */
+}
+
+.about-hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about-text {
+  flex: 1 1 50%;
+  max-width: 600px;
+}
+
+.about-text h1,
+.about-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: blueviolet;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .about-text h1,
+  .about-text h2 {
+    font-size: 2.5rem;
+  }
+}
+
+.about-text p {
+  margin-top: 1rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  font-weight: 600;
+  color: #96317b;
+}
+
+.about-image {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.about-hero {
+  flex: 1 1 50%;
+  /* max-width: 600px; */
+  background: rgba(255, 255, 255, 0.7); /* semi-transparent white */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}

@@ -1,0 +1,70 @@
+/* Review Section */
+.review {
+  padding: 50px 20px;
+  /* background: linear-gradient(135deg, #fdfbfb, #ebedee); */
+  background: url("../../assets/background/bridge2.jpg") no-repeat center center fixed;
+
+  text-align: center;
+}
+
+.review .heading {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.review-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Card */
+.review-card {
+  width: 200px;           /* matches slider */
+  height: auto;           /* let content dictate height */
+  background: rgba(255, 255, 255, 0.75); /* white with 70% opacity */
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Avatar */
+.review-card img.avatar {
+  width: 40px;          /* 50% smaller */
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Name and Services */
+.review-card h3 {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.review-card .services {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Rating Hearts */
+.review-card .hearts {
+  font-size: 1rem;
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Review Text */
+.review-card .review-text {
+  font-size: 0.85rem;
+  color: #333;
+  margin-top: 5px;
+  line-height: 1.3;
+}

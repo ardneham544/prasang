@@ -1,0 +1,115 @@
+/* Main navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: #ffffff;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.75rem 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e5e7eb;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* Logo - bigger, bold, cursive/italic */
+.navbar-logo .brand {
+  font-size: 2.2rem;                /* bigger for emphasis */
+  font-weight: 900;                  /* extra bold */
+  font-style: italic;                /* cursive/italic look */
+  color: #1f2937;                    /* dark text */
+  letter-spacing: 1.5px;             /* spacing for readability */
+  font-family: 'Nirmala UI', 'Segoe UI', sans-serif; /* system fonts supporting Gujarati */
+  line-height: 1;
+  display: inline-block;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+/* Optional hover effect for logo */
+.navbar-logo .brand:hover {
+  transform: scale(1.1);
+  color: #c2410c;                   /* accent color on hover */
+  cursor: pointer;
+}
+
+/* Nav Links */
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-left: auto; /* push links to right */
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.navbar-links a:hover {
+  color: #c2410c;
+}
+
+.navbar-links a.active {
+  color: #c2410c;
+  font-weight: 600;
+}
+
+/* Login button container */
+.navbar-login {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem; /* space between links and login button */
+}
+
+/* Login button */
+.login-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c2410c;   
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.login-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .navbar-login {
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+  }
+
+  .login-btn {
+    width: 100%; /* full width on mobile */
+  }
+}
