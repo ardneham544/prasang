@@ -3,6 +3,7 @@
   min-height: 100vh;
   padding: 50px 20px;
   background: url("../../assets/background/bridge2.jpg") no-repeat center center fixed;
+  background-size: cover;
   display: flex;
   flex-direction: column; /* stack title + card vertically */
   align-items: center;
