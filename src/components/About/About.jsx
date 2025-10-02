@@ -14,8 +14,8 @@ function About() {
           </p>
           <p>
             With creativity, professionalism, and attention to detail, we take care of every aspect—venue,
-            décor, catering, entertainment, logistics, and more. Whether it's an intimate gathering or a
-            grand extravaganza, we ensure every event is flawless and unique.
+            decoration, catering, entertainment, logistics, bookings and more. Whether it's an intimate gathering or a
+            grand exhibition, we ensure every event is flawless and unique.
           </p>
         </div>
 
