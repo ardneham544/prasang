@@ -19,14 +19,7 @@ function ContactUS() {
             </div>
 
             <div className="map-section">
-              <iframe
-                title="Google Map"
-                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d49532.60926537984!2d73.20503614572432!3d21.746240492646486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDQ2JzA3LjIiTiA3M8KwMTMnMjcuNiJF!5e1!3m2!1sen!2sin!4v1755494684624!5m2!1sen!2sin"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210.37085348999472!2d72.97099109559299!3d21.212895054773526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be045e5c7335b45%3A0xdf8e14190095c10a!2sSharda%20Sankul%20Co%2C%20Shree%20Valmiki%20Vidhyalay!5e1!3m2!1sen!2sin!4v1759436359430!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
 
