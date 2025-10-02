@@ -13,7 +13,7 @@ function ContactUS() {
           <div className="contact-info-column">
             <div className="company-info">
               <h3>Our Office</h3>
-              <p>19-20,Chandrakant Enclave,Rajpardi, Ta. Jhagadia, Dist. Bharuch, Gujarat, India</p>
+              <p>103, Sharda Sankul, Valthan, Ta. Kamrej, Dist. Surat, Gujarat, India</p>
               <p>Email: QUERRY@PRASANG.CO.IN</p>
               <p>Phone: +91 9316026002</p>
             </div>
