@@ -14,7 +14,7 @@ function ContactUS() {
             <div className="company-info">
               <h3>Our Office</h3>
               <p>19-20,Chandrakant Enclave,Rajpardi, Ta. Jhagadia, Dist. Bharuch, Gujarat, India</p>
-              <p>Email: cs.igner@prasang.co.in</p>
+              <p>Email: QUERRY@PRASANG.CO.IN</p>
               <p>Phone: +91 9316026002</p>
             </div>
 
