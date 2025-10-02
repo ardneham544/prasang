@@ -20,7 +20,7 @@ function About() {
         </div>
 
         <div className="about-image">
-          <img src="assets/about/founder2.jpg" alt="Founder" />
+          <img src="assets/about/1.jpg" alt="Founder" />
         </div>
       </div>
     </section>
